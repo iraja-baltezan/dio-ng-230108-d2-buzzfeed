@@ -151,8 +151,13 @@ html {
 	box-sizing: inherit;
 }
 
+$color-fg: #efdeff;
+$color-bg: #1f1147;
+
 body {
-    background-color: #f6f8fc;
+	background-color: $color-bg;
+	color: $color-fg;
+	fill: $color-fg;
     font-family: 'Montserrat', sans-serif;
     position: relative;
 }
